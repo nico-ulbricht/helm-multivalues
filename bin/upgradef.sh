@@ -8,9 +8,9 @@ for i; do
     then
         if [ -d $i ]
         then
-            for PATH in $i/*.yaml
+            for YAML_FOLDER in $i/*.yaml
             do
-                ARGS="$ARGS -f $PATH"
+                ARGS="$ARGS -f $YAML_FOLDER"
                 NEXT=False
             done
             continue
