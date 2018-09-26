@@ -1,4 +1,4 @@
-# Helm Upgrade Folder Plugin
+# Helm Multivalues Plugin
 While `kubectl` has the option to supply folders for its values `helm` currently does not.  
 This plugin attempts to solve this for this by splitting a provided folder into the individual `.yaml` files in that folder.  
 
