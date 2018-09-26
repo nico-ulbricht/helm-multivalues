@@ -25,4 +25,4 @@ for i; do
     fi
 done
 
-$HELM_BIN upgrade $ARGS
+$HELM_BIN $ARGS

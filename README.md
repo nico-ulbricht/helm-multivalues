@@ -5,4 +5,4 @@ This plugin attempts to solve this for the upgrade command by splitting a provid
 `$ helm plugin install https://github.com/nico-ulbricht/helm-upgradef`
 
 ## Usage
-`$ helm upgradef -f [VALUES_FOLDER_PATH] [RELEASE_NAME] [RELEASE_SOURCE]`
+`$ helm multivalues [ORIGINAL_COMMAND] -f [VALUES_FOLDER_PATH] [ORIGINAL_ARGS]`

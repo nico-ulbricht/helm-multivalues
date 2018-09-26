@@ -1,4 +1,5 @@
-name: "upgradef"
+name: "multivalues"
 version: "0.1.0"
-usage: "Allow helm upgrade to be used with a folder of configuration files"
-command: "$HELM_PLUGIN_DIR/bin/upgradef.sh"
+usage: "Allow helm commands to be used with a folder of configuration files"
+description: "By default helms '-f' command does not allow a folder of configuration files to be specified as is the case with kubectl. This fixes that behavior."
+command: "$HELM_PLUGIN_DIR/bin/multivalues.sh"
