@@ -25,5 +25,4 @@ for i; do
     fi
 done
 
-# TODO: Fix $HELM_BIN not working
-/usr/local/bin/helm upgrade $ARGS
+$HELM_BIN upgrade $ARGS
