@@ -17,7 +17,7 @@ for i; do
         fi
     fi
 
-    if [ $i == "-f" -o $i == "--file" o $i == "--values" ]
+    if [ $i == "-f" -o $i == "--file" ]
     then
         NEXT=True
     else
