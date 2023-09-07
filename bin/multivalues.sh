@@ -14,10 +14,14 @@ for i; do
                 NEXT=False
             done
             continue
+        else
+            ARGS="$ARGS -f $i"
+            NEXT=False
+            continue
         fi
     fi
 
-    if [ $i == "-f" -o $i == "--file" ]
+    if [ $i == "-f" -o $i == "--file" -o $i == "--values" ]
     then
         NEXT=True
     else
